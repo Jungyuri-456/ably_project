@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- seo 엔진 최적화 -->
+    <!-- 웹페이지의 설명을 정의 -->
+    <meta name="description" content="alby 홈페이지 만들기 입니다." />
+    <!-- 웹페이지와 관련된 키워드를 정의 -->
+    <meta name="keywords" content="ably, ably홈쇼핑, ABLY, ably여성의류" />
+    <!-- 웹페이지의 저자를 정의  -->
+    <meta name="author" content="ably" />
+    <!-- 소셜 미디어에서 페이지가 공유될때 사용되는 제목 -->
+    <meta property="og:title" content="ably" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 사이트 이름 -->
+    <meta property="og:site_name" content="ably 웹사이트" />
+    <!-- 소셜 미디어에서 페이지가 웹사이트임을 명시 -->
+    <meta property="og:type" content="website" />
+    <!-- Open Graph 프로토콜에서 사용되는 메타 태그의 속성 중 하나로, 페이지의 간략한 설명을 제공하는 데 사용 -->
+    <!-- 소셜 미디어에서 공유될 때 사용되는 URL -->
+    <meta property="og:url" content="https://jungyuri-456.github.io/alby_shoppingmal/" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 이미지 -->
+    <meta property="og:image" content="https://jungyuri-456.github.io/alby_shoppingmal/images/logo%201.png" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 설명 -->
+    <meta property="og:description" content="ably 웹사이트입니다." />
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css" />
+
+      <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <title>Document</title>
+  </head>
+  <body>
+    <!-- 전체 -->
+    <div class="wrap">
+      <!-- 상단 -->
+      <div class="top">
+        <div class="top-innder">
+          <!-- 최상단 -->
+          <div class="topFisrt">
+            <!-- 로고 -->
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo 1.png" alt="로고" />
+                </a>
+            </div>
+            <!-- 검색바 -->
+            <div class="find">
+              <div class="bar">
+                <span>하나만 사도 무료배송</span>
+              </div>
+              <div class="glassIcon">
+                <a href="#">
+                  <img src="images/readingglasses_icon.png" alt="돋보기" />
+                </a>
+              </div>
+            </div>
+            <!-- 바로가기 아이콘 -->
+            <div class="iconTop">
+              <!-- 찜목록 -->
+              <div class="heart">
+                <a href="#">
+                  <img src="images/heart_icon.png" alt="찜목록" />
+                </a>
+              </div>
+              <!-- 장바구니 -->
+              <div class="cart">
+                <a href="#">
+                  <img src="images/cart_icon.png" alt="장바구니" />
+                </a>
+              </div>
+              <!-- 마이페이지 -->
+              <div class="man">
+                <a href="#">
+                  <img src="images/man_icon.png" alt="마이페이지" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- 네비게이션 바 -->
+          <nav class="topSecond">
+            <ul class="bgn">
+              <li><a href="#">홈</a></li>
+              <li><a href="#">카테고리</a></li>
+              <li><a href="#">신상품</a></li>
+              <li><a href="#">베스트</a></li>
+              <li><a href="#">세일/특가</a></li>
+              <li><a href="#">브랜드관</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- 광고배너 -->
+      <div class="swiper mySwiper">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <img src="images/banner_1.jpg" alt="배너1">
+            </li>
+            <li class="swiper-slide">
+                <img src="images/banner_3.jpg" alt="배너2">
+            </li>
+            <li class="swiper-slide">
+                <img src="images/banner_4.jpg" alt="배너3">
+            </li>
+            <li class="swiper-slide">
+                <img src="images/banner_5.jpg" alt="배너3">
+            </li>
+            <li class="swiper-slide">
+                <img src="images/banner_6.jpg" alt="배너3">
+            </li>
+            <li class="swiper-slide">
+                <img src="images/banner_7.jpg" alt="배너3">
+            </li>
+        </ul>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="mainButton">
+        <ul class="line1">
+          <li>
+            <a href="#">
+              <img src="images/icon_category_top.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+          slidesPerView: 2,
+          spaceBetween: 0,
+          centeredSlides: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+        autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+
+        });
+      </script>
+  </body>
+</html>
