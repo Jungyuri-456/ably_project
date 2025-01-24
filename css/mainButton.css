@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* 메인베튼 */
+.mainButton-inner{
+    /* margin: auto */
+  }
+  .mainButton {
+    width: 100%;
+    max-width: 1600px;
+    padding: 20px 200px;
+    border-radius: 50px;
+    margin: 50px auto;
+    background-color: rgb(209, 209, 209);
+  }
+  /* 메인버튼 전체 폰트사이즈 */
+  .mainButton a{
+    font-size: 20px;
+  }
+  .line1 {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    gap: 40px;
+  }
+  
+  .line1 li {
+    width: calc(100% / 5);
+  }
+  
+  .line1 li a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .line1 li a img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    /* width: 100%; */
+  }
+  .line1 li span{
+      padding-bottom: 20px;
+  }
+  .line2 {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    gap: 40px;
+  }
+  .line2 li{
+      width: calc(100% / 5);
+  }
+  .line2 li a{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+  }
+  .line2 li a img {
+      width: 100%;
+      display: block;
+      border-radius: 20px;
+      /* width: 100%; */
+  }

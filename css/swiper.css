@@ -14,12 +14,11 @@ body {
   padding: 0;
 }
 
-.swiper {
-  width: 100%;
-  height: 100%;
-}
 
-.swiper-slide {
+.addSwiper{
+  position: relative;
+}
+.addSwiper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -28,22 +27,22 @@ body {
   align-items: center;
 }
 
-.swiper-slide img {
+.addSwiper .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
-.swiper-button-prev{
 
+.swiper-button-next, .swiper-button-prev{
+  width: 49% !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 40px !important;
+  color: #000;
+  position: absolute;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
-.swiper-button-next{
-  position:relative;
-  top: -50px;
-  left: 0;
-  background-color: red;
-}
-.swiper-button-next::after{
-  position: relative;
-}
