@@ -214,7 +214,7 @@ button .more:hover a{
   font-weight: bold;
 }
 .myPicks_pic li ._3_{
-  font-size: 13px;
+  /* font-size: 13px; */
 }
 .myPicks_pic li ._4_{
   font-size: 11px;
@@ -248,10 +248,14 @@ button .more:hover a{
 width: 50%;
 }
 .siteInfo{
-  width: 70%;
+  width: 80%;
   margin-top: 20px;
   font-size: 15px;
   color: #888888;
+}
+
+.siteInfo > li > span:last-child{
+  margin-top: 5px;
 }
 
 .siteInfo-list > li{
@@ -290,11 +294,12 @@ margin-left: auto;
   color: #888888;
 }
 .csInfo .csInfo-list .__1, .accountInfo .__1{
+
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 .csInfo .csInfo-list li{
-  margin-bottom: 2px;
+  margin-bottom: 2px ;
 }
 
 .accountInfo{
@@ -302,6 +307,9 @@ margin-left: auto;
   font-size: 15px;
   gap: 20%;
   color: #888888;
+}
+.accountInfo .accountInfo-list li{
+  margin-bottom: 2px; 
 }
 .footer-down{
   width: 100%;

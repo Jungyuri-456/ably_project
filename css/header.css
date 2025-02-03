@@ -21,7 +21,7 @@
 /* 로고 */
 .logo {
   width: 15%;
-  min-width: 150px;
+  min-width: 200px;
   /* width: 210px; */
   /* margin-top: 20px; */
   /* background-color: rebeccapurple; */
@@ -34,15 +34,18 @@
 /* 검색바 */
 .find {
   display: flex;
-
   width: 50%;
+  min-width: 200px;
+  max-width: 350px;
+  min-width: 50%;
+  
   /* background-color: aqua; */
 }
 .bar {
   width: 100%;
   height: 50px;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 47px;
   margin-left: 10px;
   background-color: rgb(218, 218, 218);
   border-radius: 25px;
@@ -50,11 +53,14 @@
   overflow: hidden;
 }
 .bar input {
-  width: 600px;
-  height: 50px;
+  /* width: 300px;
+  height: 50px; */
+  width: 100%;
+
   border: 0;
   padding: 15px 0;
   outline: none;
+  min-width: 200px;
   background-color: rgb(218, 218, 218);
 }
 .bar input::placeholder {
@@ -64,7 +70,9 @@
 .glassIcon {
   width: 5%;
   height: 5%;
-  margin-left: 5px;
+  min-width: 40px;
+  min-height: 40px;
+  margin-left: 20px;
   background-color: rebeccapurple;
 }
 .glassIcon img {
@@ -75,7 +83,7 @@
 /* 바로가기 아이콘 */
 .iconTop {
   width: 10%;
-  min-width: 100px;
+  min-width: 180px;
   gap: 20px;
   display: flex;
   /* background-color: teal; */
@@ -85,6 +93,11 @@
 }
 .iconTop a img {
   width: 100%;
+}
+.iconTop .hambuger{
+  width: 20%;
+  min-width: 30px;
+  display: none;
 }
 
 /* 네비게이션바 */

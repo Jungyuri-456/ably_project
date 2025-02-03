@@ -1,0 +1,48 @@
+@media screen and (max-width: 1270px) {
+  /* .iconTop{
+    width: 30%;
+} */
+html{
+  font-size: 10px;
+}
+/* 상단 */
+.topFisrt{
+  padding: 50px 70px;
+}
+  .glassIcon {
+    display: none;
+  }
+  .bar input{
+    width: 100%;
+  }
+  .iconTop > .hambuger{
+    display: block;
+    margin-left: 70%;
+    }
+  .iconTop > .heart, .cart, .man{
+    display: none;
+  }
+  /* 배너 */
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 25px;
+    padding: 10px 15px;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    width: 30%;
+  }
+/* 버튼 */
+.mainButton a{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+}
+@media screen and (max-width: 850px) {
+  .bar input{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+
+}

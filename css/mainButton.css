@@ -3,6 +3,7 @@
 .mainButton-inner{
     /* margin: auto */
   }
+
   .mainButton {
     width: 100%;
     max-width: 1600px;
@@ -13,7 +14,8 @@
   }
   /* 메인버튼 전체 폰트사이즈 */
   .mainButton a{
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
   }
   .line1 {
     width: 90%;
@@ -34,6 +36,7 @@
   }
   .line1 li a img {
     width: 100%;
+    min-width: 70px;
     display: block;
     border-radius: 20px;
     /* width: 100%; */
@@ -58,6 +61,7 @@
   }
   .line2 li a img {
       width: 100%;
+      min-width: 70px;
       display: block;
       border-radius: 20px;
       /* width: 100%; */

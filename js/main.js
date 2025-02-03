@@ -12,10 +12,10 @@ window.onload = function () {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
+      // autoplay: {
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // },
     });
     var swiper = new Swiper(".myPicks", {
         loop: true, // 무한 루프
