@@ -2,47 +2,88 @@
   /* .iconTop{
     width: 30%;
 } */
-html{
-  font-size: 10px;
-}
-/* 상단 */
-.topFisrt{
-  padding: 50px 70px;
-}
+  html {
+    font-size: 10px;
+  }
+  /* 상단 */
+  /* 검색바 */
+  .topFisrt {
+    /* padding: 50px 70px; */
+  }
   .glassIcon {
     display: none;
   }
-  .bar input{
+  
+  /* .bar input {
     width: 100%;
-  }
-  .iconTop > .hambuger{
+   
+  } */
+  /* 아이콘 */
+  .iconTop > .hambuger {
     display: block;
-    margin-left: 70%;
-    }
-  .iconTop > .heart, .cart, .man{
+   
+  }
+  .iconTop > .heart,
+  .cart,
+  .man {
     display: none;
   }
-  /* 배너 */
-  .swiper-button-next:after, .swiper-button-prev:after {
+  /* 배너의 버튼*/
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
     font-size: 25px;
     padding: 10px 15px;
   }
-  .swiper-button-next, .swiper-button-prev{
+  .swiper-button-next,
+  .swiper-button-prev {
     width: 30%;
   }
-/* 버튼 */
-.mainButton a{
+}
+/* 네비게이션 바 */
+/* .bgn > li > a{
+  font-size: 17px;
+}
+.topSecond .bgn_2 > li > a{
+  
+} */
+/* 메인버튼 */
+.mainButton a {
   font-size: 15px;
   font-weight: 600;
 }
-
+.line1, .line2{
+  width: 70%;
 }
-@media screen and (max-width: 850px) {
-  .bar input{
+/* 하단 */
+.footer {
+  padding: 50px 70px;
+}
+
+@media screen and (max-width: 860px) {
+  .bar input {
     width: 100%;
   }
+  .mainButton a {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .line1 li a {
+    gap: 3%; /* 반응형에서도 간격을 유지 */
+    text-align: center;
+  }
+  .category .list li a {
+    padding: 7px 12px;
+    font-size: 20px;
+  }
+  .picture ul li {
+    width: calc((100% - 20px) / 2);
+  }
+
 }
 
 @media screen and (max-width: 530px) {
-
+  .mainButton > .line1,
+  .line2 > a > img {
+    margin: 0 15px;
+  }
 }
