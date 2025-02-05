@@ -7,7 +7,7 @@
   .mainButton {
     width: 100%;
     max-width: 1600px;
-    padding: 7% 12%;
+    padding: 20px 200px;
     border-radius: 50px;
     margin: 50px auto;
     background-color: rgb(209, 209, 209);
@@ -30,18 +30,15 @@
   
   .line1 li a {
     display: flex;
-    white-space: nowrap;
     flex-direction: column;
     text-align: center;
     gap: 10px;
-
   }
   .line1 li a img {
     width: 100%;
     min-width: 70px;
     display: block;
     border-radius: 20px;
-
     /* width: 100%; */
   }
   .line1 li span{
@@ -58,7 +55,6 @@
   }
   .line2 li a{
       display: flex;
-      white-space: nowrap;
       flex-direction: column;
       text-align: center;
       gap: 10px;
